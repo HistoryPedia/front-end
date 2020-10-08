@@ -1,0 +1,176 @@
+body{
+    background-color: #333333;
+}
+
+/*form*/
+form.form{
+    position: absolute;
+    width: 543px;
+    height: 700px;
+    left: 657px;
+    top: 0px;
+
+    background: rgba(255, 255, 253, 0.9);
+    
+}
+
+/* FUNDO */
+div.fundo{
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    left: 230px;
+    top: 55px;
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://upload.wikimedia.org/wikipedia/commons/d/d8/Colosseum_in_Rome-April_2007-1-_copie_2B.jpg);
+    background-size: contain;
+    border: 5px solid rgb(255, 79, 11);
+    border-radius: 10px;
+}
+
+p{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 60px;
+    margin-top: 110px;
+}
+p#log{
+    color: rgb(255, 79, 11);
+    font-weight: bolder;
+    
+    position: absolute;
+    width: 400px;
+    height: 119px;
+    left: 150px;
+    top: 12px;
+}
+p#in{
+    color: black;
+    font-weight: bolder;
+
+    position: absolute;
+    width: 400px;
+    height: 119px;
+    left: 295px;
+    top: 12px;
+}
+
+/*name input*/
+nav#name{
+    position: absolute;
+    width: 241px;
+    height: 120px;
+    left: 2px;
+    top: 175px;
+}
+
+/*email input*/
+nav#email{
+    position: absolute;
+    width: 241px;
+    height: 150px;
+    left: 0px;
+    top: 300px;
+}
+input#email{
+    position: absolute;
+    width: 440px;
+    height: 50px;
+    top: 40px;
+    left: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+label#email{
+    position: absolute;
+    left: 38px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+/*senha*/
+nav#senha{
+    position: absolute;
+    width: 241px;
+    top: 425px;
+}
+input#senha{
+    position: absolute;
+    width: 440px;
+    height: 50px;
+    left: 35px;
+    top: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+label#senha{
+    position: absolute;
+    left: 38px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+/*Enviar*/
+input#entrar{
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    left: 35px;
+    top: 535px;
+
+    background: #FF4F0B;
+    border-radius: 10px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFD;
+}
+
+/*home*/
+#home{
+    position: absolute;
+    width: 71px;
+    height: 42px;
+    left: 52px;
+    top: 13px;
+    margin-top: 25px;
+
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}

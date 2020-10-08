@@ -1,0 +1,284 @@
+body{
+    background-color: #333333;
+}
+
+/*form*/
+form.form{
+    position: absolute;
+    width: 543px;
+    height: 700px;
+    left: 657px;
+    top: 0px;
+
+    background: rgba(255, 255, 253, 0.9);
+    
+}
+
+/* FUNDO */
+div.fundo{
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    left: 230px;
+    top: 55px;
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.infoescola.com/wp-content/uploads/2018/11/julio-cesar-533113864.jpg);
+    background-size: contain;
+    border: 5px solid rgb(255, 79, 11);
+    border-radius: 10px;
+}
+
+p{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 60px;
+}
+p#sign{
+    color: rgb(255, 79, 11);
+    font-weight: bolder;
+    
+    position: absolute;
+    width: 400px;
+    height: 119px;
+    left: 150px;
+    top: 12px;
+}
+p#up{
+    color: black;
+    font-weight: bolder;
+
+    position: absolute;
+    width: 400px;
+    height: 119px;
+    left: 295px;
+    top: 12px;
+}
+
+/*name input*/
+nav#name{
+    position: absolute;
+    width: 241px;
+    height: 120px;
+    left: 2px;
+    top: 175px;
+}
+input#name{
+    position: absolute;
+    width: 440px;
+    height: 50px;
+    left: 35px;
+    top: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+label#name{
+    position: absolute;
+    width: 325px;
+    height: 34px;
+    left: 38px;
+    top: 0px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+/*email input*/
+nav#email{
+    position: absolute;
+    width: 241px;
+    height: 150px;
+    left: 0px;
+    top: 300px;
+}
+input#email{
+    position: absolute;
+    width: 440px;
+    height: 50px;
+    top: 40px;
+    left: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+label#email{
+    position: absolute;
+    left: 38px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+/*senha*/
+nav#senha{
+    position: absolute;
+    width: 241px;
+    height: 150px;
+    top: 425px;
+}
+input#senha{
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 35px;
+    top: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+label#senha{
+    position: absolute;
+    left: 38px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+input#confsenha{
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 285px;
+    top: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+label#confsenha{
+    position: absolute;
+    width: 200px;
+    left: 288px;
+    top: 0px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+/*avatar*/
+input.avatar::-webkit-file-upload-button{
+    display: none;
+}
+input.avatar::before{
+    content: 'Anexar foto de perfil';
+    background: rgba(255, 79, 11, 0.8);
+    border: 3px solid rgba(255, 79, 11, 0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: 'Merriweather', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    position: absolute;
+    width: 220px;
+    height: 26px;
+    left: 285px;
+    top: 535px;
+}
+
+/*termos*/
+nav#terms{
+    position: absolute;
+    width: 252px;
+    height: 26px;
+    left: 48px;
+    top: 538px;
+}
+label#terms{
+    font-family: 'Merriweather', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+
+/*Enviar*/
+input#cadastrar{
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    left: 55px;
+    top: 585px;
+
+    background: #FF4F0B;
+    border-radius: 10px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFD;
+}
+
+/*home*/
+#home{
+    position: absolute;
+    width: 71px;
+    height: 42px;
+    left: 52px;
+    top: 13px;
+
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
